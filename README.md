@@ -7,7 +7,7 @@ algorithms. We have already created an initial list of possible algorithms, as s
 appendix, from which we will choose the best fitting options. The currently existing literature
 already investigated the topic of comparing the algorithms on different datasets, however we
 would like to focus on a specific type of network, which has not been explored before.
-Therefore, the research question can be formulated as follows:
-<br> 
-> Which algorithm is most suitable for identifying important spreaders in the
-context of the Twitch Social Network?</p>
+Therefore, the research question can be formulated as follows:</p>
+<br> <br>
+<p align="center">***Which algorithm is most suitable for identifying important spreaders in the
+context of the Twitch Social Network?***</p>
