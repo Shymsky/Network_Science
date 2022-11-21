@@ -8,6 +8,6 @@ appendix, from which we will choose the best fitting options. The currently exis
 already investigated the topic of comparing the algorithms on different datasets, however we
 would like to focus on a specific type of network, which has not been explored before.
 Therefore, the research question can be formulated as follows:</p>
-<br> <br>
+<br>
 <p align="center"><i><b>Which algorithm is most suitable for identifying important spreaders in the
   context of the Twitch Social Network?</b></i></p>
