@@ -1,36 +1,22 @@
-About the dataset:
+Twitch Social Networks
 
-A social network of Twitch users which was collected from the public API in Spring 2018. Nodes are Twitch users and edges are mutual follower relationships between them. The graph forms a single strongly connected component without missing attributes. The machine learning tasks related to the graph are count data regression and node classification. There are 6 specific tasks:
 
-- Explicit content streamer identification.
-- Broadcaster language prediction.
-- User lifetime estimation.
-- Churn prediction.
-- Affiliate status identification.
-- View count estimation.
+These datasets used for node classification and transfer learning are Twitch user-user networks of gamers who stream in a certain language. Nodes are the users themselves and the links are mutual friendships between them. Vertex features are extracted based on the games played and liked, location and streaming habits. Datasets share the same set of node features, this makes transfer learning across networks possible. These social networks were collected in May 2018. The supervised task related to these networks is binary node classification - one has to predict whether a streamer uses explicit language.
 
-Statistics:
+Properties
 
-Nodes 168,114
-Edges 6,797,557
-Density 0.0005
-Transitivity 0.0184
 
-Citing:
+|   | DE  | EN  | ES  | FR  | PT  | RU  |
+|---|---|---|---|---|---|---|
+| Nodes |9,498   | 7,126  |  4,648 |6,549   | 1,912  |  4,385 |
+| Edges | 153,138  |35,324 |  59,382 |112,666   | 31,299  |  37,304 |
+| Density |  0.003 | 0.002  | 0.006 | 0.005   | 0.017  |  0.004 |
+| Transitvity | 0.047| 0.042 | 0.084 |0.054   | 0.131  |  0.049 |
 
-@misc{rozemberczki2021twitch,
-      title={Twitch Gamers: a Dataset for Evaluating Proximity Preserving and Structural Role-based Node Embeddings}, 
-      author={Benedek Rozemberczki and Rik Sarkar},
-      year={2021},
-      eprint={2101.03091},
-      archivePrefix={arXiv},
-      primaryClass={cs.SI}
-}
+Possible tasks
 
-Twitch Gamers paper:
-
-https://arxiv.org/abs/2005.07959
-
-Twitch Gamers project:
-
-https://github.com/benedekrozemberczki/datasets
+- Transfer learning
+- Binary node classification
+- Link prediction
+- Community detection
+- Network visualization
